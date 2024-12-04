@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(/IMG/Peluqueria4.jpg);
+    background: linear-gradient(rgba(0 0 0 / .8), rgba(0 0 0 / .8)), url(/imgen/Peluqueria1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,5 +139,16 @@ footer {
     background-color: rgb(15, 15, 15) !important;
     width: 100% !important;
     height: 700px !important;
+}
+@media (max-width: 758px){
+   .container{
+    margin-top: 200px;
+    height: 800px;
+   }
+    .box-info h1{
+        font-size: 25px;
+    }
+
+
 }
 
